@@ -4,7 +4,6 @@ import Header from '../Header.js';
 export default function AboutMe() {
   return (
     <div>
-      <Header />
       <h1>About Me</h1>
       <p id="about_me_para">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
