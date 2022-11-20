@@ -1,22 +1,25 @@
 import React from 'react';
-import Header from '../Header.js';
-
+import avatar from '../../assets/devimg.JPG';
 export default function AboutMe() {
   return (
-    <div>
-      <h1>About Me</h1>
+    <div className="bg-info">
+      <div className="px-2">
+      <h1 className="text-center">About Me</h1>
+      <img
+        src={avatar}
+        alt="profile_picture"
+        className="rounded-circle img-center"
+        width="10%"/>
+      <section>
       <p id="about_me_para">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque
-        velit, lobortis ut magna varius, blandit rhoncus sem. Morbi lacinia nisi
-        ac dui fermentum, sed luctus urna tincidunt. Etiam ut feugiat ex. Cras
-        non risus mi. Curabitur mattis rutrum ipsum, ut aliquet urna imperdiet
-        ac. Sed nec nulla aliquam, bibendum odio eget, vestibulum tortor. Cras
-        rutrum ligula in tincidunt commodo. Morbi sit amet mollis orci, in
-        tristique ex. Donec nec ornare elit. Donec blandit est sed risus feugiat
-        porttitor. Vestibulum molestie hendrerit massa non consequat. Vestibulum
-        vitae lorem tortor. In elementum ultricies tempus. Interdum et malesuada
-        fames ac ante ipsum primis in faucibus.
+       I'm a full stack web developer with a focus on the MERN stack,
+       but still exploring other technologies and frameworks that catch my interest! 
+       Currently,I'm studying at University Of Toronto Coding Bootcamp Program.
+       I have learned various front end and back end languages,databases and worked on various projects.
+       If you're looking for a developer to add to your team, I'd love to hear from you!
       </p>
+      </section>
+      </div>
     </div>
   );
 }

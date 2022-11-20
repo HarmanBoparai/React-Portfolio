@@ -2,4 +2,8 @@
     color: purple;
     font-size: x-large;
   }
-  
+
+.bg-info{
+  width: 100vw;
+  min-height: 100vh;
+}
