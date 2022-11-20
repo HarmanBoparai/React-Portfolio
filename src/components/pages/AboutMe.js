@@ -8,8 +8,8 @@ export default function AboutMe() {
       <img
         src={avatar}
         alt="profile_picture"
-        className="rounded-circle img-center"
-        width="10%"/>
+        className=" mx-auto d-block rounded-circle img-center"
+        width="15%"/>
       <section>
       <p id="about_me_para">
        I'm a full stack web developer with a focus on the MERN stack,
