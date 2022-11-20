@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { checkPassword, validateEmail } from '../../utils/helpers';
 
 function Form() {
-<h1>Contact:</h1>
+<h1 className="text-center">Contact:</h1>
   const [email, setEmail] = useState('');
   const [userName, setUserName] = useState('');
   const [password, setPassword] = useState('');
@@ -45,14 +45,17 @@ function Form() {
 
     // If everything goes according to plan, we want to clear out the input after a successful registration.
     setUserName('');
-    setPassword('');
+    setPassword('');  
     setEmail('');
   };
 
   return (
-    <div>
+    <div className="bg-info">
+    <div className="px-2">
+      <h1 className="text-center">Contact:</h1>
       <p>{userName}</p>
-      <form className="form">
+      <form className="form bg-info">
+      <div className="m-3 w-50">
         <input
           value={email}
           name="email"
@@ -60,6 +63,8 @@ function Form() {
           type="email"
           placeholder="email"
         />
+        </div>
+        <div className="m-3 w-50">
         <input
           value={userName}
           name="userName"
@@ -67,6 +72,8 @@ function Form() {
           type="text"
           placeholder="username"
         />
+        </div>
+      <div className="m-3 w-50">
         <input
           value={password}
           name="password"
@@ -74,7 +81,10 @@ function Form() {
           type="password"
           placeholder="Password"
         />
+        </div>
+        <div className="m-3 w-50">
         <button type="button" onClick={handleFormSubmit}>Submit</button>
+        </div>
       </form>
       {errorMessage && (
         <div>
@@ -82,6 +92,9 @@ function Form() {
         </div>
       )}
     </div>
+    </div>
+    
+
   );
 }
 

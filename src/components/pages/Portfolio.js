@@ -2,8 +2,9 @@ import React from 'react';
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>Portfolio</h1>
+    <div className="bg-info">
+      <div className="px-2">
+      <h1 className="text-center">Portfolio</h1>
       <p>
         Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
         Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
@@ -19,6 +20,7 @@ export default function Portfolio() {
         bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
         est ligula suscipit velit, sed bibendum turpis dui in sapien.
       </p>
+      </div>
     </div>
   );
 }
