@@ -7,7 +7,7 @@ export default function Project({ title, desc, url, repo, img }) {
   };
   return (
     <div className="container">
-      <div className="card bg-dark ">
+      <div className="card bg-light ">
         <img
           src={img}
           className="card-img-top"
