@@ -7,9 +7,11 @@ export default function Resume() {
       <h1 className="text-center">Resume</h1>
       <a href="harmansresume.pdf"
   download="harmansresume.pdf">
-   <button className="resumebtn">Download My Resume</button>
+   <button className="btn btn-dark">Download My Resume</button>
    </a>
-      <img className="resume"
+      <img className="resume" class="center" 
+       height={1000}
+       width={1500}
         src={resume}
         alt="biography"
       ></img>
