@@ -23,10 +23,10 @@ const projects =[
   },
   {
 
-     title :"Online Note Taker  ",
+     title :"The Goodness Gift  ",
      img : project3,
-     url : "https://harman-note-taker.herokuapp.com/",
-   repo :"https://github.com/HarmanBoparai/Note-Taker",
+     url : "https://salty-lowlands-79836.herokuapp.com/",
+   repo :"https://github.com/thivsiv28/The-goodness-gift",
   },
   {
 
